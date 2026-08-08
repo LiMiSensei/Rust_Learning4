@@ -12,11 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_1_简介.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_2_Rust的内存安全意味着什么第1部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_4_创建_构建和运行rust程序.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_5_Rust中的打印相关宏.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_6_format格式化和命名占位符.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_字符串的r和r标记.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_13_变量可变性与数据类型详解.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_14_as关键字与ascii值存储.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_15_字符数据类型.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_17_数组与数组遍历.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_7_练习1.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_8_实用的cargo工具.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_9_十六进制和二进制格式打印.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1_简介.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1_简介.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2_Rust的内存安全意味着什么第1部分.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2_rust的内存安全意味着什么第1部分.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_4_创建_构建和运行rust程序.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_4_创建_构建和运行rust程序.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_5_Rust中的打印相关宏.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_5_rust中的打印相关宏.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_6_format格式化和命名占位符.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_6_format格式化和命名占位符.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +40,10 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="hAgQONL8" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3HZ6PdcD7YfMz2Tk8DjKE77v9FJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -53,14 +62,17 @@
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/LiMi/Desktop/Rust_Learning4/src",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true"
   }
 }]]></component>
@@ -73,22 +85,6 @@
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package Rust_Learning4 --bin Rust_Learning4" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run" />
       <envs />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -135,8 +131,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/_2_Rust的内存安全意味着什么第1部分.rs</url>
-          <line>6</line>
+          <url>file://$PROJECT_DIR$/src/_2_rust的内存安全意味着什么第1部分.rs</url>
+          <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

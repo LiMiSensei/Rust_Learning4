@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn main() {
     print!("Hello");
     eprint!("An error occured!");
