@@ -67,6 +67,57 @@ mod _32_将if_else用作语句和表达式;
 
 #[path = "_32_将if_else用作语句和表达式.rs"]
 mod _33_match语句;
+#[path = "_35_使用ifelse_ifelse和if_let_elseif_letelse.rs"]
+mod _35_使用ifelse_ifelse和if_let_elseif_letelse;
+
+#[path = "_36_比较与逻辑运算符.rs"]
+mod _36_比较与逻辑运算符;
+
+#[path = "_37_位运算符.rs"]
+mod _37_位运算符;
+
+#[path = "_39_rust中的字符串.rs"]
+mod _39_rust中的字符串;
+#[path = "_40_字符串与UTF8格式.rs"]
+mod _40_字符串与UTF8格式;
+#[path = "_41_字符串切片.rs"]
+mod _41_字符串切片;
+
+#[path = "_42_字符串与切片的相互转换.rs"]
+mod _42_字符串与切片的相互转换;
+
+#[path = "_43_字符串拼接.rs"]
+mod _43_字符串拼接;
+
+#[path = "_44_字符串索引.rs"]
+mod _44_字符串索引;
+
+#[path = "_45_练习7第1部分.rs"]
+mod _45_练习7第1部分;
+
+#[path = "_46_练习7第2部分.rs"]
+mod _46_练习7第2部分;
+
+#[path = "_47_练习7第3部分.rs"]
+mod _47_练习7第3部分;
+
+#[path = "_48_所有权_移动与复制语义.rs"]
+mod _48_所有权_移动与复制语义;
+
+#[path = "_49_值传递与引用传递.rs"]
+mod _49_值传递与引用传递;
+
+#[path = "_50_Rust中的循环语句.rs"]
+mod _50_Rust中的循环语句;
+
+#[path = "_51_使用for_in循环的不同迭代方式.rs"]
+mod _51_使用for_in循环的不同迭代方式;
+
+#[path = "_52_解决方案.rs"]
+mod _52_解决方案;
+
+#[path = "_53_while与while_let循环.rs"]
+mod _53_while与while_let循环;
 
 #[allow(dead_code)]
 fn main() {
@@ -97,8 +148,25 @@ fn main() {
         _30_切片数据类型::main();
         _31_切片数据类型的标准库函数::main();
         _32_将if_else用作语句和表达式::main();
+        _33_match语句::main();
+        _35_使用ifelse_ifelse和if_let_elseif_letelse::main();
+        _36_比较与逻辑运算符::main();
+        _37_位运算符::main();
+        _39_rust中的字符串::main();
+        _40_字符串与UTF8格式::main();
+        _41_字符串切片::main();
+        _42_字符串与切片的相互转换::main();
+        _43_字符串拼接::main();
+        _44_字符串索引::main();
+        _45_练习7第1部分::main();
+        _46_练习7第2部分::main();
+        _47_练习7第3部分::main();
+        _48_所有权_移动与复制语义::main();
+        _49_值传递与引用传递::main();
+        _50_Rust中的循环语句::main();
+        _51_使用for_in循环的不同迭代方式::main();
+        _52_解决方案::main();
     }
 
-    
-    _33_match语句::main();
+    _53_while与while_let循环::main();
 }

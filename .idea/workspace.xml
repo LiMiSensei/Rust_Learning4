@@ -12,20 +12,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_19_算术运算符与简写语法.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_20_在Rust中编写函数.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_21_rust的内存安全意味着什么第2部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_22_rust的内存安全意味着什么第3部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_23_单元测试.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_24_编写测试用例.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_25_标准库断言宏.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_26_继续编写测试用例.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_28_引用.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_29_借用_借用者与被借用者.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_30_切片数据类型.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_31_切片数据类型的标准库函数.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_32_将if_else用作语句和表达式.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_33_match语句.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_35_使用ifelse_ifelse和if_let_elseif_letelse.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_36_比较与逻辑运算符.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_37_位运算符.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_39_rust中的字符串.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_40_字符串与UTF8格式.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_41_字符串切片.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_42_字符串与切片的相互转换.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_43_字符串拼接.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_44_字符串索引.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_45_练习7第1部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_46_练习7第2部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_47_练习7第3部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_48_所有权_移动与复制语义.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_49_值传递与引用传递.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_50_Rust中的循环语句.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_51_使用for_in循环的不同迭代方式.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_52_解决方案.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_53_while与while_let循环.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,18 +42,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LiMiSensei"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LiMiSensei&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LiMiSensei/Rust_Learning4.git",
-    "accountId": "a945f1c6-91a9-4b54-98e7-65f2b6af6761"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LiMiSensei/Rust_Learning4.git&quot;,
+    &quot;accountId&quot;: &quot;a945f1c6-91a9-4b54-98e7-65f2b6af6761&quot;
   }
-}]]></component>
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="hAgQONL8" />
   </component>
@@ -64,36 +69,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cargo.Run.executor": "Run",
-    "CidrDebugProfileConversion": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/LiMi/Desktop/Rust_Learning4/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "org.rust.disableDetachedFileInspectionC:/Users/LiMi/Desktop/Rust_Learning4/src/_31_切片数据类型的标准库函数.rs": "true",
-    "org.rust.disableDetachedFileInspectionC:/Users/LiMi/Desktop/Rust_Learning4/src/_33_match语句.rs": "true",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Run.executor&quot;: &quot;Run&quot;,
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LiMi/Desktop/Rust_Learning4/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/LiMi/Desktop/Rust_Learning4/src/_31_切片数据类型的标准库函数.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/LiMi/Desktop/Rust_Learning4/src/_33_match语句.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LiMi\Desktop\Rust_Learning4\src" />
@@ -129,6 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1786063224165</updated>
       <workItem from="1786209694909" duration="13146000" />
+      <workItem from="1786293784210" duration="11486000" />
     </task>
     <servers />
   </component>
