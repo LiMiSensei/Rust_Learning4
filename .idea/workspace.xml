@@ -12,26 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_55_元组数据类型.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_56_元组的模式匹配.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_57_元组匹配与移动.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_58_ref关键字.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_61_创建与初始化结构体.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_62_结构体是移动还是复制.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_63_结构体与default_trait.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_64_元组结构体与单元结构体.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_65_编写结构体方法.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_66_作为结构体构造函数的关联函数.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_67_结构体的模式匹配.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_68_ref在结构体模式匹配中的使用.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_69_在Rust中定义枚举.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_70_枚举的方法与关联函数.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_71_使用枚举进行模式匹配.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_72_option_t_类型.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_73_option_t_的使用.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_74_向量简介.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_75_向量的底层原理.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_76_向量索引.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_77_向量的切片.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_78_向量的push_pop与shrink_to_fit方法.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_79_练习11.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_80_向量的drain与extract_if方法.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_81_向量的retain与retain_mut方法.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_82_向量的split及相关方法.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_53_while与while_let循环.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_53_while与while_let循环.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_74_向量简介.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_74_向量简介.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +127,7 @@
       <workItem from="1786209694909" duration="13146000" />
       <workItem from="1786293784210" duration="11486000" />
       <workItem from="1786374400322" duration="16550000" />
+      <workItem from="1786474187318" duration="5961000" />
     </task>
     <servers />
   </component>

@@ -173,6 +173,28 @@ mod _73_option_t_的使用;
 #[path = "_74_向量简介.rs"]
 mod _74_向量简介;
 
+#[path = "_75_向量的底层原理.rs"]
+mod _75_向量的底层原理;
+#[path = "_76_向量索引.rs"]
+mod _76_向量索引;
+
+#[path = "_77_向量的切片.rs"]
+mod _77_向量的切片;
+
+#[path = "_78_向量的push_pop与shrink_to_fit方法.rs"]
+mod _78_向量的push_pop与shrink_to_fit方法;
+
+#[path = "_79_练习11.rs"]
+mod _79_练习11;
+#[path = "_80_向量的drain与extract_if方法.rs"]
+mod _80_向量的drain与extract_if方法;
+
+#[path = "_81_向量的retain与retain_mut方法.rs"]
+mod _81_向量的retain与retain_mut方法;
+
+#[path = "_82_向量的split及相关方法.rs"]
+mod _82_向量的split及相关方法;
+
 #[allow(dead_code)]
 fn main() {
     if false {
@@ -238,7 +260,15 @@ fn main() {
         _71_使用枚举进行模式匹配::main();
         _72_option_t_类型::main();
         _73_option_t_的使用::main();
+        _74_向量简介::main();
+        _75_向量的底层原理::main();
+        _76_向量索引::main();
+        _77_向量的切片::main();
+        _78_向量的push_pop与shrink_to_fit方法::main();
+        _79_练习11::main();
+        _80_向量的drain与extract_if方法::main();
+        _81_向量的retain与retain_mut方法::main();
     }
 
-    _74_向量简介::main();
+    _82_向量的split及相关方法::main();
 }
