@@ -215,6 +215,44 @@ mod _88_枚举Result_T_E;
 #[path = "_89_使用Result_T_E枚举处理错误.rs"]
 mod _89_使用Result_T_E枚举处理错误;
 
+#[path = "_90_Result_T_E练习.rs"]
+mod _90_Result_T_E练习;
+
+#[path = "_91_错误传播运算符.rs"]
+mod _91_错误传播运算符;
+#[path = "_92_将Option_T_转换为Result_T_E类型.rs"]
+mod _92_将Option_T_转换为Result_T_E类型;
+#[path = "_93_unwrap与expect方法.rs"]
+mod _93_unwrap与expect方法;
+#[path = "_94_unwrap_err.rs"]
+mod _94_unwrap_err;
+#[path = "_95_标准库错误类型.rs"]
+mod _95_标准库错误类型;
+#[path = "_96_处理stdioError.rs"]
+mod _96_处理stdioError;
+#[path = "_97_数值错误练习.rs"]
+mod _97_数值错误练习;
+#[path = "_98_数值错误练习续.rs"]
+mod _98_数值错误练习续;
+#[path = "_99_错误转换练习.rs"]
+mod _99_错误转换练习;
+
+#[path = "_100_错误转换练习续.rs"]
+mod _100_错误转换练习续;
+#[path = "_101_map_err的使用.rs"]
+mod _101_map_err的使用;
+#[path = "_102_错误的自动转换.rs"]
+mod _102_错误的自动转换;
+
+#[path = "_105_泛型语法与编写泛型函数.rs"]
+mod _105_泛型语法与编写泛型函数;
+#[path = "_106_多泛型类型参数的函数.rs"]
+mod _106_多泛型类型参数的函数;
+#[path = "_107_泛型结构体与枚举.rs"]
+mod _107_泛型结构体与枚举;
+#[path = "_109_生命周期与作用域.rs"]
+mod _109_生命周期与作用域;
+
 #[allow(dead_code)]
 fn main() {
     if false {
@@ -295,7 +333,24 @@ fn main() {
         _86_HashMap及其方法第1部分::main();
         _87_HashMap及其方法第2部分::main();
         _88_枚举Result_T_E::main();
+        _89_使用Result_T_E枚举处理错误::main();
+        _90_Result_T_E练习::main();
+        _91_错误传播运算符::main();
+        _92_将Option_T_转换为Result_T_E类型::main();
+        _93_unwrap与expect方法::main();
+        _94_unwrap_err::main();
+        _95_标准库错误类型::main();
+        _96_处理stdioError::main();
+        _97_数值错误练习::main();
+        _98_数值错误练习续::main();
+        _99_错误转换练习::main();
+        _100_错误转换练习续::main();
+        _101_map_err的使用::main();
+        _102_错误的自动转换::main();
+        _105_泛型语法与编写泛型函数::main();
+        _106_多泛型类型参数的函数::main();
+        _107_泛型结构体与枚举::main();
     }
 
-    _89_使用Result_T_E枚举处理错误::main();
+    _109_生命周期与作用域::main();
 }
