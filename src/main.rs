@@ -195,6 +195,26 @@ mod _81_向量的retain与retain_mut方法;
 #[path = "_82_向量的split及相关方法.rs"]
 mod _82_向量的split及相关方法;
 
+#[path = "_83_向量的splice_append与extend方法.rs"]
+mod _83_向量的splice_append与extend方法;
+
+#[path = "_84_使用索引和splice进行向量前置操作.rs"]
+mod _84_使用索引和splice进行向量前置操作;
+
+#[path = "_85_VecDeque.rs"]
+mod _85_VecDeque;
+
+#[path = "_86_HashMap及其方法第1部分.rs"]
+mod _86_HashMap及其方法第1部分;
+#[path = "_87_HashMap及其方法第2部分.rs"]
+mod _87_HashMap及其方法第2部分;
+
+#[path = "_88_枚举Result_T_E.rs"]
+mod _88_枚举Result_T_E;
+
+#[path = "_89_使用Result_T_E枚举处理错误.rs"]
+mod _89_使用Result_T_E枚举处理错误;
+
 #[allow(dead_code)]
 fn main() {
     if false {
@@ -268,7 +288,14 @@ fn main() {
         _79_练习11::main();
         _80_向量的drain与extract_if方法::main();
         _81_向量的retain与retain_mut方法::main();
+        _82_向量的split及相关方法::main();
+        _83_向量的splice_append与extend方法::main();
+        _84_使用索引和splice进行向量前置操作::main();
+        _85_VecDeque::main();
+        _86_HashMap及其方法第1部分::main();
+        _87_HashMap及其方法第2部分::main();
+        _88_枚举Result_T_E::main();
     }
 
-    _82_向量的split及相关方法::main();
+    _89_使用Result_T_E枚举处理错误::main();
 }
