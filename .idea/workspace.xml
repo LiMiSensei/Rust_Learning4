@@ -12,26 +12,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/101_map_err的使用.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_100_错误转换练习续.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_101_map_err的使用.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_102_错误的自动转换.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_105_泛型语法与编写泛型函数.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_106_多泛型类型参数的函数.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_107_泛型结构体与枚举.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_109_生命周期与作用域.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_90_Result_T_E练习.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_91_错误传播运算符.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_92_将Option_T_转换为Result_T_E类型.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_93_unwrap与expect方法.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_94_unwrap_err.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_95_标准库错误类型.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_96_处理stdioError.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_97_数值错误练习.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_98_数值错误练习续.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_99_错误转换练习.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_110_生命周期注解示例.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_111_生命周期省略规则.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_112_结构体的生命周期注解.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_113_结构体的生命周期注解续.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_114_结构体方法的生命周期注解.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_115_const与static变量.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_116_Trait简介与Trait方法.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_117_Trait的关联类型.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_118_练习_为用户定义结构实现Displaytrait第1部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_119_练习_为用户定义结构实现Displaytrait第2部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_120_练习_为用户定义结构实现Displaytrait第3部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_122_Trait对象与虚表.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_123_动态大小类型DST的装箱.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_124_Box_dyn_Trait的内存布局.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_125_闭包简介与语法.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_89_使用Result_T_E枚举处理错误.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_89_使用Result_T_E枚举处理错误.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/101_map_err的使用.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_109_生命周期与作用域.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_109_生命周期与作用域.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,6 +138,7 @@
       <workItem from="1786374400322" duration="16550000" />
       <workItem from="1786474187318" duration="5961000" />
       <workItem from="1786548597823" duration="11744000" />
+      <workItem from="1786639572368" duration="14369000" />
     </task>
     <servers />
   </component>

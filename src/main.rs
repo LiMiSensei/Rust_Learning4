@@ -252,6 +252,36 @@ mod _106_多泛型类型参数的函数;
 mod _107_泛型结构体与枚举;
 #[path = "_109_生命周期与作用域.rs"]
 mod _109_生命周期与作用域;
+#[path = "_110_生命周期注解示例.rs"]
+mod _110_生命周期注解示例;
+#[path = "_111_生命周期省略规则.rs"]
+mod _111_生命周期省略规则;
+#[path = "_112_结构体的生命周期注解.rs"]
+mod _112_结构体的生命周期注解;
+#[path = "_113_结构体的生命周期注解续.rs"]
+mod _113_结构体的生命周期注解续;
+#[path = "_114_结构体方法的生命周期注解.rs"]
+mod _114_结构体方法的生命周期注解;
+#[path = "_115_const与static变量.rs"]
+mod _115_const与static变量;
+#[path = "_116_Trait简介与Trait方法.rs"]
+mod _116_Trait简介与Trait方法;
+#[path = "_117_Trait的关联类型.rs"]
+mod _117_Trait的关联类型;
+#[path = "_118_练习_为用户定义结构实现Displaytrait第1部分.rs"]
+mod _118_练习_为用户定义结构实现Displaytrait第1部分;
+#[path = "_119_练习_为用户定义结构实现Displaytrait第2部分.rs"]
+mod _119_练习_为用户定义结构实现Displaytrait第2部分;
+#[path = "_120_练习_为用户定义结构实现Displaytrait第3部分.rs"]
+mod _120_练习_为用户定义结构实现Displaytrait第3部分;
+#[path = "_122_Trait对象与虚表.rs"]
+mod _122_Trait对象与虚表;
+#[path = "_123_动态大小类型DST的装箱.rs"]
+mod _123_动态大小类型DST的装箱;
+#[path = "_124_Box_dyn_Trait的内存布局.rs"]
+mod _124_Box_dyn_Trait的内存布局;
+#[path = "_125_闭包简介与语法.rs"]
+mod _125_闭包简介与语法;
 
 #[allow(dead_code)]
 fn main() {
@@ -350,7 +380,22 @@ fn main() {
         _105_泛型语法与编写泛型函数::main();
         _106_多泛型类型参数的函数::main();
         _107_泛型结构体与枚举::main();
+        _109_生命周期与作用域::main();
+        _110_生命周期注解示例::main();
+        _111_生命周期省略规则::main();
+        _112_结构体的生命周期注解::main();
+        _113_结构体的生命周期注解续::main();
+        _114_结构体方法的生命周期注解::main();
+        _115_const与static变量::main();
+        _116_Trait简介与Trait方法::main();
+        _117_Trait的关联类型::main();
+        _118_练习_为用户定义结构实现Displaytrait第1部分::main();
+        _119_练习_为用户定义结构实现Displaytrait第2部分::main();
+        _120_练习_为用户定义结构实现Displaytrait第3部分::main();
+        _122_Trait对象与虚表::main();
+        _123_动态大小类型DST的装箱::main();
+        _124_Box_dyn_Trait的内存布局::main();
     }
 
-    _109_生命周期与作用域::main();
+    _125_闭包简介与语法::main();
 }
