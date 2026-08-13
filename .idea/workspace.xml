@@ -11,18 +11,7 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_83_向量的splice_append与extend方法.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_84_使用索引和splice进行向量前置操作.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_85_VecDeque.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_86_HashMap及其方法第1部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_87_HashMap及其方法第2部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_88_枚举Result_T_E.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_89_使用Result_T_E枚举处理错误.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_82_向量的split及相关方法.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_82_向量的split及相关方法.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-    </list>
+    <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
