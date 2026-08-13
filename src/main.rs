@@ -215,6 +215,74 @@ mod _88_枚举Result_T_E;
 #[path = "_89_使用Result_T_E枚举处理错误.rs"]
 mod _89_使用Result_T_E枚举处理错误;
 
+#[path = "_90_Result_T_E练习.rs"]
+mod _90_Result_T_E练习;
+
+#[path = "_91_错误传播运算符.rs"]
+mod _91_错误传播运算符;
+#[path = "_92_将Option_T_转换为Result_T_E类型.rs"]
+mod _92_将Option_T_转换为Result_T_E类型;
+#[path = "_93_unwrap与expect方法.rs"]
+mod _93_unwrap与expect方法;
+#[path = "_94_unwrap_err.rs"]
+mod _94_unwrap_err;
+#[path = "_95_标准库错误类型.rs"]
+mod _95_标准库错误类型;
+#[path = "_96_处理stdioError.rs"]
+mod _96_处理stdioError;
+#[path = "_97_数值错误练习.rs"]
+mod _97_数值错误练习;
+#[path = "_98_数值错误练习续.rs"]
+mod _98_数值错误练习续;
+#[path = "_99_错误转换练习.rs"]
+mod _99_错误转换练习;
+
+#[path = "_100_错误转换练习续.rs"]
+mod _100_错误转换练习续;
+#[path = "_101_map_err的使用.rs"]
+mod _101_map_err的使用;
+#[path = "_102_错误的自动转换.rs"]
+mod _102_错误的自动转换;
+
+#[path = "_105_泛型语法与编写泛型函数.rs"]
+mod _105_泛型语法与编写泛型函数;
+#[path = "_106_多泛型类型参数的函数.rs"]
+mod _106_多泛型类型参数的函数;
+#[path = "_107_泛型结构体与枚举.rs"]
+mod _107_泛型结构体与枚举;
+#[path = "_109_生命周期与作用域.rs"]
+mod _109_生命周期与作用域;
+#[path = "_110_生命周期注解示例.rs"]
+mod _110_生命周期注解示例;
+#[path = "_111_生命周期省略规则.rs"]
+mod _111_生命周期省略规则;
+#[path = "_112_结构体的生命周期注解.rs"]
+mod _112_结构体的生命周期注解;
+#[path = "_113_结构体的生命周期注解续.rs"]
+mod _113_结构体的生命周期注解续;
+#[path = "_114_结构体方法的生命周期注解.rs"]
+mod _114_结构体方法的生命周期注解;
+#[path = "_115_const与static变量.rs"]
+mod _115_const与static变量;
+#[path = "_116_Trait简介与Trait方法.rs"]
+mod _116_Trait简介与Trait方法;
+#[path = "_117_Trait的关联类型.rs"]
+mod _117_Trait的关联类型;
+#[path = "_118_练习_为用户定义结构实现Displaytrait第1部分.rs"]
+mod _118_练习_为用户定义结构实现Displaytrait第1部分;
+#[path = "_119_练习_为用户定义结构实现Displaytrait第2部分.rs"]
+mod _119_练习_为用户定义结构实现Displaytrait第2部分;
+#[path = "_120_练习_为用户定义结构实现Displaytrait第3部分.rs"]
+mod _120_练习_为用户定义结构实现Displaytrait第3部分;
+#[path = "_122_Trait对象与虚表.rs"]
+mod _122_Trait对象与虚表;
+#[path = "_123_动态大小类型DST的装箱.rs"]
+mod _123_动态大小类型DST的装箱;
+#[path = "_124_Box_dyn_Trait的内存布局.rs"]
+mod _124_Box_dyn_Trait的内存布局;
+#[path = "_125_闭包简介与语法.rs"]
+mod _125_闭包简介与语法;
+
 #[allow(dead_code)]
 fn main() {
     if false {
@@ -295,7 +363,39 @@ fn main() {
         _86_HashMap及其方法第1部分::main();
         _87_HashMap及其方法第2部分::main();
         _88_枚举Result_T_E::main();
+        _89_使用Result_T_E枚举处理错误::main();
+        _90_Result_T_E练习::main();
+        _91_错误传播运算符::main();
+        _92_将Option_T_转换为Result_T_E类型::main();
+        _93_unwrap与expect方法::main();
+        _94_unwrap_err::main();
+        _95_标准库错误类型::main();
+        _96_处理stdioError::main();
+        _97_数值错误练习::main();
+        _98_数值错误练习续::main();
+        _99_错误转换练习::main();
+        _100_错误转换练习续::main();
+        _101_map_err的使用::main();
+        _102_错误的自动转换::main();
+        _105_泛型语法与编写泛型函数::main();
+        _106_多泛型类型参数的函数::main();
+        _107_泛型结构体与枚举::main();
+        _109_生命周期与作用域::main();
+        _110_生命周期注解示例::main();
+        _111_生命周期省略规则::main();
+        _112_结构体的生命周期注解::main();
+        _113_结构体的生命周期注解续::main();
+        _114_结构体方法的生命周期注解::main();
+        _115_const与static变量::main();
+        _116_Trait简介与Trait方法::main();
+        _117_Trait的关联类型::main();
+        _118_练习_为用户定义结构实现Displaytrait第1部分::main();
+        _119_练习_为用户定义结构实现Displaytrait第2部分::main();
+        _120_练习_为用户定义结构实现Displaytrait第3部分::main();
+        _122_Trait对象与虚表::main();
+        _123_动态大小类型DST的装箱::main();
+        _124_Box_dyn_Trait的内存布局::main();
     }
 
-    _89_使用Result_T_E枚举处理错误::main();
+    _125_闭包简介与语法::main();
 }

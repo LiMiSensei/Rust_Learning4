@@ -11,7 +11,27 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="" />
+    <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/_110_生命周期注解示例.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_111_生命周期省略规则.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_112_结构体的生命周期注解.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_113_结构体的生命周期注解续.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_114_结构体方法的生命周期注解.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_115_const与static变量.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_116_Trait简介与Trait方法.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_117_Trait的关联类型.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_118_练习_为用户定义结构实现Displaytrait第1部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_119_练习_为用户定义结构实现Displaytrait第2部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_120_练习_为用户定义结构实现Displaytrait第3部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_122_Trait对象与虚表.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_123_动态大小类型DST的装箱.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_124_Box_dyn_Trait的内存布局.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_125_闭包简介与语法.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/101_map_err的使用.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_109_生命周期与作用域.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_109_生命周期与作用域.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,37 +68,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cargo.Run.executor": "Run",
-    "CidrDebugProfileConversion": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/LiMi/Desktop/Rust_Learning4/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
-    "org.rust.disableDetachedFileInspectionC:/Users/LiMi/Desktop/Rust_Learning4/src/_31_切片数据类型的标准库函数.rs": "true",
-    "org.rust.disableDetachedFileInspectionC:/Users/LiMi/Desktop/Rust_Learning4/src/_33_match语句.rs": "true",
-    "org.rust.disableDetachedFileInspectionC:/Users/LiMi/Desktop/Rust_Learning4/src/_82_向量的split及相关方法.rs": "true",
-    "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cargo.Run.executor&quot;: &quot;Run&quot;,
+    &quot;CidrDebugProfileConversion&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/LiMi/Desktop/Rust_Learning4/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/LiMi/Desktop/Rust_Learning4/src/_31_切片数据类型的标准库函数.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/LiMi/Desktop/Rust_Learning4/src/_33_match语句.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.disableDetachedFileInspectionC:/Users/LiMi/Desktop/Rust_Learning4/src/_82_向量的split及相关方法.rs&quot;: &quot;true&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LiMi\Desktop\Rust_Learning4\src" />
@@ -117,6 +137,8 @@
       <workItem from="1786293784210" duration="11486000" />
       <workItem from="1786374400322" duration="16550000" />
       <workItem from="1786474187318" duration="5961000" />
+      <workItem from="1786548597823" duration="11744000" />
+      <workItem from="1786639572368" duration="14369000" />
     </task>
     <servers />
   </component>
