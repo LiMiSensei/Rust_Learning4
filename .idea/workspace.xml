@@ -12,24 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_110_生命周期注解示例.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_111_生命周期省略规则.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_112_结构体的生命周期注解.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_113_结构体的生命周期注解续.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_114_结构体方法的生命周期注解.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_115_const与static变量.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_116_Trait简介与Trait方法.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_117_Trait的关联类型.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_118_练习_为用户定义结构实现Displaytrait第1部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_119_练习_为用户定义结构实现Displaytrait第2部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_120_练习_为用户定义结构实现Displaytrait第3部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_122_Trait对象与虚表.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_123_动态大小类型DST的装箱.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_124_Box_dyn_Trait的内存布局.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_125_闭包简介与语法.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_126_闭包捕获环境.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_127_与闭包相关的Traits.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_128_闭包变量的行为.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_129_将闭包作为函数参数传递第1部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_130_将闭包作为函数参数传递第2部分.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/101_map_err的使用.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_109_生命周期与作用域.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_109_生命周期与作用域.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_125_闭包简介与语法.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_125_闭包简介与语法.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

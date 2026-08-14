@@ -1,8 +1,8 @@
 
-#[allow(dead_code)] //ref 是引用绑定
+#[allow(dead_code)]
 pub fn main() {
-
-
+    //没有名字的函数
+    let fun = |x:i32|-> i32{return x};
 
 
 }
