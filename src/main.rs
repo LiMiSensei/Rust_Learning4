@@ -292,6 +292,38 @@ mod _128_闭包变量的行为;
 mod _129_将闭包作为函数参数传递第1部分;
 #[path = "_130_将闭包作为函数参数传递第2部分.rs"]
 mod _130_将闭包作为函数参数传递第2部分;
+#[path = "_131_闭包作为结构体成员字段_使用Trait对象.rs"]
+mod _131_闭包作为结构体成员字段_使用Trait对象;
+#[path = "_132_程序的内存布局.rs"]
+mod _132_程序的内存布局;
+#[path = "_133_闭包的类型.rs"]
+mod _133_闭包的类型;
+#[path = "_134_闭包练习.rs"]
+mod _134_闭包练习;
+#[path = "_135_结构体成员字段_使用泛型.rs"]
+mod _135_结构体成员字段_使用泛型;
+#[path = "_136_闭包与事件处理.rs"]
+mod _136_闭包与事件处理;
+#[path = "_137_迭代器简介.rs"]
+mod _137_迭代器简介;
+#[path = "_138_Trait_Iterator与Trait_Intolterator.rs"]
+mod _138_Trait_Iterator与Trait_Intolterator;
+#[path = "_139_关于Trait_Iterator.rs"]
+mod _139_关于Trait_Iterator;
+#[path = "_140_创建自定义迭代器.rs"]
+mod _140_创建自定义迭代器;
+#[path = "_141_通过值_可变与不可变引用迭代自定义迭代器.rs"]
+mod _141_通过值_可变与不可变引用迭代自定义迭代器;
+#[path = "_142_重构next方法创建自定义迭代器.rs"]
+mod _142_重构next方法创建自定义迭代器;
+#[path = "_143_练习_实现自定义迭代器.rs"]
+mod _143_练习_实现自定义迭代器;
+#[path = "_144_解决方案_实现自定义迭代器.rs"]
+mod _144_解决方案_实现自定义迭代器;
+#[path = "_145_为自定义类型实现Trait_Intolterator第1部分.rs"]
+mod _145_为自定义类型实现Trait_Intolterator第1部分;
+#[path = "_146_为自定义类型实现Trait_Intolterator第2部分.rs"]
+mod _146_为自定义类型实现Trait_Intolterator第2部分;
 
 #[allow(dead_code)]
 fn main() {
@@ -410,7 +442,23 @@ fn main() {
         _127_与闭包相关的Traits::main();
         _128_闭包变量的行为::main();
         _129_将闭包作为函数参数传递第1部分::main();
+        _130_将闭包作为函数参数传递第2部分::main();
+        _131_闭包作为结构体成员字段_使用Trait对象::main();
+        _132_程序的内存布局::main();
+        _133_闭包的类型::main();
+        _134_闭包练习::main();
+        _135_结构体成员字段_使用泛型::main();
+        _136_闭包与事件处理::main();
+        _137_迭代器简介::main();
+        _138_Trait_Iterator与Trait_Intolterator::main();
+        _139_关于Trait_Iterator::main();
+        _140_创建自定义迭代器::main();
+        _141_通过值_可变与不可变引用迭代自定义迭代器::main();
+        _142_重构next方法创建自定义迭代器::main();
+        _143_练习_实现自定义迭代器::main();
+        _144_解决方案_实现自定义迭代器::main();
+        _145_为自定义类型实现Trait_Intolterator第1部分::main();
     }
 
-    _130_将闭包作为函数参数传递第2部分::main();
+    _146_为自定义类型实现Trait_Intolterator第2部分::main();
 }

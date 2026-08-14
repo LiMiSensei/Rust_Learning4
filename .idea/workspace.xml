@@ -12,13 +12,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_126_闭包捕获环境.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_127_与闭包相关的Traits.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_128_闭包变量的行为.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_129_将闭包作为函数参数传递第1部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_130_将闭包作为函数参数传递第2部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_131_闭包作为结构体成员字段_使用Trait对象.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_132_程序的内存布局.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_133_闭包的类型.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_134_闭包练习.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_135_结构体成员字段_使用泛型.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_136_闭包与事件处理.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_137_迭代器简介.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_138_Trait_Iterator与Trait_Intolterator.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_139_关于Trait_Iterator.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_140_创建自定义迭代器.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_141_通过值_可变与不可变引用迭代自定义迭代器.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_142_重构next方法创建自定义迭代器.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_143_练习_实现自定义迭代器.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_144_解决方案_实现自定义迭代器.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_145_为自定义类型实现Trait_Intolterator第1部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_146_为自定义类型实现Trait_Intolterator第2部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_147_为自定义类型实现Trait_Intolterator第3部分.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_125_闭包简介与语法.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_125_闭包简介与语法.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_130_将闭包作为函数参数传递第2部分.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_130_将闭包作为函数参数传递第2部分.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
