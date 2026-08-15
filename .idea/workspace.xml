@@ -11,16 +11,7 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_126_闭包捕获环境.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_127_与闭包相关的Traits.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_128_闭包变量的行为.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_129_将闭包作为函数参数传递第1部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_130_将闭包作为函数参数传递第2部分.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_125_闭包简介与语法.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_125_闭包简介与语法.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-    </list>
+    <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
