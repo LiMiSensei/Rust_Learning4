@@ -32,6 +32,20 @@ impl IntoIterator for CarCollection {
     }
 }
 
+struct CarPriceRangeIteratorByRef<'a> {
+    remaining_cars: std::slice::Iter<'a, Car>,
+    price_range: (u32, u32),
+}
+
+impl<'a> Iterator for CarPriceRangeIteratorByRef<'a> {
+    type Item = &'a Car;
+
+    fn next(&mut self) -> Option<Self::Item> {
+        self.remaining_cars
+            .find(|car| car.price >= self.price_range.0 && car.price <= self.price_range.1)
+    }
+}
+
 #[cfg(feature = "not_yet_ready")]
 impl IntoIterator for &CarCollection {
     type Item = &Car;
@@ -51,8 +65,8 @@ impl Iterator for CarPriceRangeIteratorByValue {
     type Item = Car;
 
     fn next(&mut self) -> Option<Self::Item> {
-        self.reamaining_cars.find(|car| (*car).price >= self.price_range.0 &&
-            (*car).price <= self.price_range.1);
+        self.reamaining_cars
+            .find(|car| (*car).price >= self.price_range.0 && (*car).price <= self.price_range.1);
         /*while let Some(car) = self.reamaining_cars {
             if car.price >= self.price_range.0 && car.price <= self.price_range.1 {
                 return Some(car);

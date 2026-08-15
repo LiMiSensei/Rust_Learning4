@@ -12,25 +12,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_131_闭包作为结构体成员字段_使用Trait对象.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_132_程序的内存布局.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_133_闭包的类型.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_134_闭包练习.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_135_结构体成员字段_使用泛型.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_136_闭包与事件处理.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_137_迭代器简介.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_138_Trait_Iterator与Trait_Intolterator.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_139_关于Trait_Iterator.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_140_创建自定义迭代器.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_141_通过值_可变与不可变引用迭代自定义迭代器.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_142_重构next方法创建自定义迭代器.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_143_练习_实现自定义迭代器.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_144_解决方案_实现自定义迭代器.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_145_为自定义类型实现Trait_Intolterator第1部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_146_为自定义类型实现Trait_Intolterator第2部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_147_为自定义类型实现Trait_Intolterator第3部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_148_为自定义类型实现Trait_Intolterator第4部分_解决方案.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_149_迭代器方法.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_150_foreach作为for循环的替代.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_151_iter_iter_mut与into_iter详解.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_152_常用的迭代器适配器.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_153_map方法详解与示例.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_154_collect.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_155_在自定义集合中使用collect.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_156_为类型实现Trait_Fromlterator.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_157_filter.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_158_包_crate_Cargo_toml与Cargo_lock.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_159_Cargo_toml的package部分与语义化版本.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_160_包结构规则.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_161_Cargo_toml的dependencies部分.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_162_Rust版本.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_163_模块.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_164_隐私规则总结.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_165_结构体封装.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_166_将模块组织到单独文件中.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_167_重新导出.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_168_裸指针mut_T与const_T.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_169_智能指针Box_T.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_170_Box_String.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_171_使用动态大小类型DST.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_172_Box_T.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_130_将闭包作为函数参数传递第2部分.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_130_将闭包作为函数参数传递第2部分.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_147_为自定义类型实现Trait_Intolterator第3部分.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_147_为自定义类型实现Trait_Intolterator第3部分.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +148,18 @@
       <workItem from="1786474187318" duration="5961000" />
       <workItem from="1786548597823" duration="11744000" />
       <workItem from="1786639572368" duration="14369000" />
+      <workItem from="1786744200360" duration="137000" />
+      <workItem from="1786807030177" duration="17315000" />
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <option name="closed" value="true" />
+      <created>1786744228057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1786744228057</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +175,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

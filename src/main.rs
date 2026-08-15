@@ -324,6 +324,56 @@ mod _144_解决方案_实现自定义迭代器;
 mod _145_为自定义类型实现Trait_Intolterator第1部分;
 #[path = "_146_为自定义类型实现Trait_Intolterator第2部分.rs"]
 mod _146_为自定义类型实现Trait_Intolterator第2部分;
+#[path = "_147_为自定义类型实现Trait_Intolterator第3部分.rs"]
+mod _147_为自定义类型实现Trait_Intolterator第3部分;
+#[path = "_148_为自定义类型实现Trait_Intolterator第4部分_解决方案.rs"]
+mod _148_为自定义类型实现Trait_Intolterator第4部分_解决方案;
+#[path = "_149_迭代器方法.rs"]
+mod _149_迭代器方法;
+#[path = "_150_foreach作为for循环的替代.rs"]
+mod _150_foreach作为for循环的替代;
+#[path = "_151_iter_iter_mut与into_iter详解.rs"]
+mod _151_iter_iter_mut与into_iter详解;
+#[path = "_152_常用的迭代器适配器.rs"]
+mod _152_常用的迭代器适配器;
+#[path = "_153_map方法详解与示例.rs"]
+mod _153_map方法详解与示例;
+mod _154_collect;
+#[path = "_155_在自定义集合中使用collect.rs"]
+mod _155_在自定义集合中使用collect;
+#[path = "_156_为类型实现Trait_Fromlterator.rs"]
+mod _156_为类型实现Trait_Fromlterator;
+mod _157_filter;
+#[path = "_158_包_crate_Cargo_toml与Cargo_lock.rs"]
+mod _158_包_crate_Cargo_toml与Cargo_lock;
+#[path = "_159_Cargo_toml的package部分与语义化版本.rs"]
+mod _159_Cargo_toml的package部分与语义化版本;
+#[path = "_160_包结构规则.rs"]
+mod _160_包结构规则;
+#[path = "_161_Cargo_toml的dependencies部分.rs"]
+mod _161_Cargo_toml的dependencies部分;
+#[path = "_162_Rust版本.rs"]
+mod _162_Rust版本;
+#[path = "_163_模块.rs"]
+mod _163_模块;
+#[path = "_164_隐私规则总结.rs"]
+mod _164_隐私规则总结;
+#[path = "_165_结构体封装.rs"]
+mod _165_结构体封装;
+#[path = "_166_将模块组织到单独文件中.rs"]
+mod _166_将模块组织到单独文件中;
+#[path = "_167_重新导出.rs"]
+mod _167_重新导出;
+#[path = "_168_裸指针mut_T与const_T.rs"]
+mod _168_裸指针mut_T与const_T;
+#[path = "_169_智能指针Box_T.rs"]
+mod _169_智能指针Box_T;
+#[path = "_170_Box_String.rs"]
+mod _170_Box_String;
+#[path = "_171_使用动态大小类型DST.rs"]
+mod _171_使用动态大小类型DST;
+#[path = "_172_Box_T.rs"]
+mod _172_Box_T;
 
 #[allow(dead_code)]
 fn main() {
@@ -458,7 +508,32 @@ fn main() {
         _143_练习_实现自定义迭代器::main();
         _144_解决方案_实现自定义迭代器::main();
         _145_为自定义类型实现Trait_Intolterator第1部分::main();
+        _146_为自定义类型实现Trait_Intolterator第2部分::main();
+        _147_为自定义类型实现Trait_Intolterator第3部分::main();
+        _148_为自定义类型实现Trait_Intolterator第4部分_解决方案::main();
+        _149_迭代器方法::main();
+        _150_foreach作为for循环的替代::main();
+        _151_iter_iter_mut与into_iter详解::main();
+        _152_常用的迭代器适配器::main();
+        _153_map方法详解与示例::main();
+        _154_collect::main();
+        _155_在自定义集合中使用collect::main();
+        _156_为类型实现Trait_Fromlterator::main();
+        _157_filter::main();
+        _158_包_crate_Cargo_toml与Cargo_lock::main();
+        _159_Cargo_toml的package部分与语义化版本::main();
+        _160_包结构规则::main();
+        _161_Cargo_toml的dependencies部分::main();
+        _162_Rust版本::main();
+        _163_模块::main();
+        _164_隐私规则总结::main();
+        _165_结构体封装::main();
+        _167_重新导出::main();
+        _168_裸指针mut_T与const_T::main();
+        _169_智能指针Box_T::main();
+        _170_Box_String::main();
+        _171_使用动态大小类型DST::main();
     }
 
-    _146_为自定义类型实现Trait_Intolterator第2部分::main();
+    _172_Box_T::main();
 }
