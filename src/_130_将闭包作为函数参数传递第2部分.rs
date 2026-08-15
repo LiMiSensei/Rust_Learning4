@@ -1,5 +1,6 @@
-fn apply<F>(f:F, arg:i32) -> i32
+fn apply<F>(mut f:F, arg:i32) -> i32
 where F: Fn(i32)->i32{
+
     f(arg)
 }
 #[allow(dead_code)]
