@@ -12,33 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b860a10-b90f-44ae-973e-727829244cb3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_148_为自定义类型实现Trait_Intolterator第4部分_解决方案.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_149_迭代器方法.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_150_foreach作为for循环的替代.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_151_iter_iter_mut与into_iter详解.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_152_常用的迭代器适配器.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_153_map方法详解与示例.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_154_collect.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_155_在自定义集合中使用collect.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_156_为类型实现Trait_Fromlterator.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_157_filter.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_158_包_crate_Cargo_toml与Cargo_lock.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_159_Cargo_toml的package部分与语义化版本.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_160_包结构规则.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_161_Cargo_toml的dependencies部分.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_162_Rust版本.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_163_模块.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_164_隐私规则总结.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_165_结构体封装.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_166_将模块组织到单独文件中.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_167_重新导出.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_168_裸指针mut_T与const_T.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_169_智能指针Box_T.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_170_Box_String.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_171_使用动态大小类型DST.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_172_Box_T.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_173_Box_dyn_Trait.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_174_使用Box_dynTrait_在向量中存储异构数据.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_175_将BoxT转换为裸指针及反向操作.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_176_Box_T的借用.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_177_使用BoxT实现递归类型.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_178_Rc_T.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_147_为自定义类型实现Trait_Intolterator第3部分.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/_147_为自定义类型实现Trait_Intolterator第3部分.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +95,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="buildProfileId" value="dev" />
       <option name="command" value="run --package Rust_Learning4 --bin Rust_Learning4" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />

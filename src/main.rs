@@ -374,6 +374,18 @@ mod _170_Box_String;
 mod _171_使用动态大小类型DST;
 #[path = "_172_Box_T.rs"]
 mod _172_Box_T;
+#[path = "_173_Box_dyn_Trait.rs"]
+mod _173_Box_dyn_Trait;
+#[path = "_174_使用Box_dynTrait_在向量中存储异构数据.rs"]
+mod _174_使用Box_dynTrait_在向量中存储异构数据;
+#[path = "_175_将BoxT转换为裸指针及反向操作.rs"]
+mod _175_将BoxT转换为裸指针及反向操作;
+#[path = "_176_Box_T的借用.rs"]
+mod _176_Box_T的借用;
+#[path = "_177_使用BoxT实现递归类型.rs"]
+mod _177_使用BoxT实现递归类型;
+#[path = "_178_Rc_T.rs"]
+mod _178_Rc_T;
 
 #[allow(dead_code)]
 fn main() {
@@ -533,7 +545,13 @@ fn main() {
         _169_智能指针Box_T::main();
         _170_Box_String::main();
         _171_使用动态大小类型DST::main();
+        _172_Box_T::main();
+        _173_Box_dyn_Trait::main();
+        _174_使用Box_dynTrait_在向量中存储异构数据::main();
+        _175_将BoxT转换为裸指针及反向操作::main();
+        _176_Box_T的借用::main();
+        _177_使用BoxT实现递归类型::main();
     }
 
-    _172_Box_T::main();
+    _178_Rc_T::main();
 }
